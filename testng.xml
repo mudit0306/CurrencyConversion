@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoProject.Currency_Converter">
+
+	<test thread-count="5" name="ChromeTest">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="DemoProject.Currency_Converter.NewTest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="FireFoxTest">
+		<parameter name="Browser" value="firefox" />
+		<classes>
+			<class name="DemoProject.Currency_Converter.NewTest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="IETest">
+		<parameter name="Browser" value="IE" />
+		<classes>
+			<class name="DemoProject.Currency_Converter.NewTest" />
+		</classes>
+	</test>
+</suite> 
